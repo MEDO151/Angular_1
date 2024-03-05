@@ -1,0 +1,41 @@
+.margin{
+  margin-top: 88px;
+}
+.icon1::before{
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  top: 50%;
+  transform: translatey(-50%);
+  left: 35px;
+  background-color: #000;
+}
+.icon1::after{
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  top: 50%;
+  transform: translatey(-50%);
+  right: 35px;
+  background-color: #000;
+}
+.form-container{
+  width: 50%;
+}
+.form{
+  width: 100%;
+  border-radius: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:1px solid #dee2e6;
+  padding: 12px 5px;
+}
+.form:focus{
+  outline: none;
+}
+.label{
+  transition:all .4s;
+}

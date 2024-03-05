@@ -1,0 +1,32 @@
+.portfolio{
+  margin-top: 88px;
+}
+.icon1::before{
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  top: 50%;
+  transform: translatey(-50%);
+  left: 35px;
+  background-color: #000;
+}
+.icon1::after{
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  top: 50%;
+  transform: translatey(-50%);
+  right: 35px;
+  background-color: #000;
+}
+.layer{
+  background-color: #1abc9c;
+  opacity: 0;
+  transition: all .4s;
+  cursor: pointer;
+}
+.layer:hover{
+  opacity: 75%;
+}

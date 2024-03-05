@@ -1,0 +1,30 @@
+.bg-main-color{
+  background-color: #1abc9c;
+  margin-top: 88px;
+}
+.icon::before{
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  top: 50%;
+  transform: translatey(-50%);
+  left: 35px;
+  background-color: #fff;
+}
+.icon::after{
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  top: 50%;
+  transform: translatey(-50%);
+  right: 35px;
+  background-color: #fff;
+}
+.active{
+  background-color: #1abc9c;
+}
+.__top{
+  top:35px !important;
+}

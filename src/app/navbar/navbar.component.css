@@ -1,0 +1,11 @@
+.bg-body-tertiary{
+  background-color: #2C3E50 !important;
+}
+.nav-link{
+  color:#fff !important;
+  font-weight: 700;
+  margin-right: 15px;
+}
+nav{
+  transition: all .5s;
+}
